@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 &nbsp;
 #
@@ -7,6 +8,8 @@ Interested in some React fundamentals / philosophies? Check out the [react-philo
 
 
 
+=======
+>>>>>>> d6ea7ccd9f3f097411a529eea3e48455751cdcaf
 
 &nbsp;
 ## The Challenges
@@ -19,15 +22,17 @@ Unnecessary re-renders, fine grained control.
 ##### 🌙 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode)
 State / shared state, DOM manipulation.
 
-##### 🐝 Coinbee ![soon](https://badgen.net/badge/status/coming%20soon/green?icon=)
-Data visualisation and graphing. API usage.
+
 
 &nbsp;
 ### Hard 😬
 ##### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify)
 Loading state, API usage.
 
+<<<<<<< HEAD
 ##### 🤖 [Chatter](https://github.com/alexgurr/react-coding-challenges/tree/master/chatter)
 Web sockets, events, callbacks & React hooks. Talks to [Botty](https://github.com/alexgurr/botty).
+
+
 
 
