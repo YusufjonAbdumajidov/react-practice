@@ -14,9 +14,9 @@ function timeToPositionPercent(startTime) {
   return `calc(300px + ${((timeDiff / MS_TO_TAKEOFF) * 100).toFixed(0)}%)`;
 }
 
-function generateEmptyListEls(quantity) {
-  return [...Array(quantity)].map(() => <li />);
-}
+// function generateEmptyListEls(quantity) {
+//   return [...Array(quantity)].map(() => <li />);
+// }
 
 export default function RocketCore({ initialLaunchTime }) {
   return (
