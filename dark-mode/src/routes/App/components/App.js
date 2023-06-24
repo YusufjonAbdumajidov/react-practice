@@ -3,19 +3,20 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import '../styles/_app.scss';
+import './../../../styles/_dark-mode.scss';
 
 function App() {
   const [ darkModeOpen, isDarkModeOpen ] = useState(false);
   return (
-    <div className="app">
+    <div className={ darkModeOpen ? " app dark-mode" : "app"}>
       <div className="level">
         <div>
-          <h1 className="title">Dark Mode Challenge</h1>
+          <h1 className={ darkModeOpen ? "title dark-mode.title" : "title"}>Dark Mode Challenge</h1>
         </div>
 
         {/* --The button that should toggle dark mode-- */}
         <button className="app__dark-mode-btn icon level-right">
-          <FontAwesomeIcon onClick={() => isDarkModeOpen(!darkModeOpen)} icon={ darkModeOpen ? faSun : faMoon} 
+          <FontAwesomeIcon onClick={() => isDarkModeOpen(!darkModeOpen)} icon={ darkModeOpen ? faSun : faMoon } 
           />
         </button>
 
@@ -44,8 +45,8 @@ function App() {
 
       <section className="section">
         <div className="buttons level-right">
-          <a className="button is-primary">Save</a>
-          <a className="button is-link">Submit</a>
+          <a href='/' className="button is-primary">Save</a>
+          <a href='/' className="button is-link">Submit</a>
         </div>
       </section>
     </div>
