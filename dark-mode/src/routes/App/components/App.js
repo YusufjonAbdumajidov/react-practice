@@ -16,7 +16,7 @@ function App() {
 
         {/* --The button that should toggle dark mode-- */}
         <button className="app__dark-mode-btn icon level-right">
-          <FontAwesomeIcon onClick={() => isDarkModeOpen(!darkModeOpen)} icon={ darkModeOpen ? faSun : faMoon } 
+          <FontAwesomeIcon style={{color: darkModeOpen ? "#FFA500" : "#BB86FC"  }} onClick={() => isDarkModeOpen(!darkModeOpen)} icon={ darkModeOpen ? faSun : faMoon } 
           />
         </button>
 
